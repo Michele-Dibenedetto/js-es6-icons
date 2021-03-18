@@ -8,3 +8,44 @@
     width: 100%;
     height: 100vh;
 }
+
+.logo h1 {
+    color: #0abde5;
+    font-size: 35px;
+}
+
+.select {
+    height: 60px;
+    background-color: #0abde5;
+    text-align: center;
+    line-height: 60px;
+}
+
+.select label {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    text-align: center;
+    background-color: white;
+    margin: 0 35px 30px;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px 0px #00000082;
+}
+
+.content_icon i {
+    font-size: 30px;
+}

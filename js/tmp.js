@@ -177,8 +177,12 @@ function show(arrey, icon) {
 		// nel div con classe .icons faccio un append (inserisco del contenuto nell'html) 
 		// dove inseriro il tag i per inserire il font awesome relativi e il nome dei miei oggetti
 		icon.append(`
+		<div class="container_icon">
+		<div class="content_icon">
 		<i class="${family} ${prefix}${name}" style="color: ${color};"></i>
-		<div>${name.toUpperCase()}</div>
+		<h3>${name.toUpperCase()}</h3>
+		</div>
+		</div>
 		`);
 	});
 }
